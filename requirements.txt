@@ -1,0 +1,18 @@
+# Stuff easy to break with updates
+torch==1.7.1
+pytorch-lightning==1.2.5
+hydra-core==1.1.0.dev5
+wandb>=0.10.23
+streamlit==0.79.0
+# hydra-joblib-launcher
+transformers
+TorchCRF
+datasets
+
+# Stable stuff usually backward compatible
+python-dotenv
+stqdm
+tqdm
+pytorch-nlp
+scikit-learn
+seqeval

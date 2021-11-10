@@ -1,0 +1,20 @@
+_target_: src.pl_modules.model.MyModel
+
+transformer_name: bert-base-multilingual-cased
+
+finetune: false
+dropout: 0.5
+average_last_k_layers: 4
+rnn:
+  bidirectional: True
+  num_layers: 2
+  hidden_size: 512
+  dropout: 0.5
+
+embedding_size: null
+
+loss:
+  reduction: 'sum'
+
+activation:
+  _target_: torch.nn.SiLU

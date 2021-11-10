@@ -1,0 +1,24 @@
+# reproducibility
+random_seed: null
+deterministic: false
+seed_idx: null
+
+# training
+pl_trainer:
+  fast_dev_run: false # Enable this for debug purposes
+  gpus: 1
+  precision: 32
+  accumulate_grad_batches: 1
+  num_sanity_val_steps: 2
+  gradient_clip_val: 1.0
+
+monitor_metric: 'f1/macro'
+monitor_metric_mode: 'max'
+
+early_stopping:
+  patience: 10
+  verbose: true
+
+model_checkpoints:
+  save_top_k: 1
+  verbose: true

@@ -1,0 +1,16 @@
+optimizer:
+  #  Adam-oriented deep learning
+  _target_: torch.optim.Adam
+  #  These are all default parameters for the Adam optimizer
+  lr: 0.0005
+  betas: [ 0.9, 0.999 ]
+  eps: 1e-08
+  weight_decay: 0
+
+use_lr_scheduler: true
+lr_scheduler:
+  _target_: src.common.scheduler.InverseSQRTScheduler
+  warmup_steps: 150
+  base_lr: ${optim.optimizer.lr}
+  warmup_init_lr: 1e-7
+  min_lr: 1e-9

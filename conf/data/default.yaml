@@ -1,0 +1,39 @@
+datamodule:
+  _target_: src.pl_data.datamodule.MyDataModule
+  #TODO force it to be always present
+  language: en
+  source: wikineural
+  root_path: ${oc.env:DATA_PATH}
+  transformer_name: ${model.transformer_name}
+
+  vocab_min_freq: 5
+
+  datasets:
+    train:
+      _target_: src.pl_data.dataset.MyDataset
+      name: train-data
+      root_path: ${data.datamodule.root_path}
+      source: ${data.datamodule.source}
+      language: ${data.datamodule.language}
+      idx_in: 1
+      idx_out: 2
+
+    val:
+      - _target_: src.pl_data.dataset.MyDataset
+        name: val-data
+        root_path: ${data.datamodule.root_path}
+        source: ${data.datamodule.source}
+        language: ${data.datamodule.language}
+        idx_in: 1
+        idx_out: 2
+
+  num_workers:
+    train: 16
+    val: 16
+    test: 16
+
+  batch_size:
+    train: 128
+    val: 64
+    test: 64
+
