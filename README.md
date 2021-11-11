@@ -65,6 +65,7 @@ Further datasets, such as the combination of WikiNEuRal with gold-standard train
 
 # License 
 WikiNEuRal is licensed under the CC BY-SA-NC 4.0 license. The text of the license can be found [here](https://github.com/Babelscape/wikineural/blob/master/LICENSE).
+
 We underline that the source from which the raw sentences have been extracted is Wikipedia ([wikipedia.org](https://www.wikipedia.org/)) and the NER annotations have been produced by [Babelscape](https://babelscape.com/).
 
 
