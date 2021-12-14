@@ -1,3 +1,5 @@
+[![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-WikiNEuRal-blue)](https://huggingface.co/datasets/Babelscape/wikineural)
+
  ![logo](img/wikineural.png)
 --------------------------------------------------------------------------------
 
