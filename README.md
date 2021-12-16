@@ -48,11 +48,11 @@ In a nutshell, WikiNEuRal consists in a novel technique which builds upon a mult
 | [WikiNEuRal DE DA (CoNLL)](data/wikineural-DA-conll/de/) | 41k | 706k | 17k | 12k | 23k | 3k | 0.61M |
 | [WikiNEuRal EN DA (OntoNotes)](data/wikineural-DA-ON/en/) | 48k | 1.18M | 20k | 13k | 38k | 12k | 1.02M |
 
-Further datasets, such as the combination of WikiNEuRal with gold-standard training data (i.e., **CoNLL**) or the gold-standard datasets themselves, can be obtained by simply concatenating the two `train.conllu` files together (e.g., `data/conll/en/train.conllu` and `data/wikineural/en/train.conllu` give `CoNLL+WikiNEuRal`).
+Further datasets, such as the combination of WikiNEuRal with gold-standard training data (i.e., **CoNLL**), can be obtained by simply concatenating the two `train.conllu` files together (e.g., `data/conll/en/train.conllu` and `data/wikineural/en/train.conllu` give `CoNLL+WikiNEuRal`).
 
 <br>
 
-# WikiNEuRal as a Benchmark
+# WikiNEuRal as a Benchmark (Leaderboard 🏆) 
 If you evaluate your NER system on one or more WikiNEuRal test sets, you can **submit** your results on the corresponding [Papers With Code WikiNEuRal Leaderboards](https://paperswithcode.com/dataset/wikineural), and obtain a **badge** if your system performs well!! 🚀 
 
 You just need to add the **name** of your system, the **score** it achieves (the metric is the Span-Level Macro F1) and **specify if you used additional training data** other than the official WikiNEuRal ones.
