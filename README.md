@@ -5,6 +5,8 @@
 
 Data and evaluation code for the paper [WikiNEuRal: Combined Neural and Knowledge-based Silver Data Creation for Multilingual NER](https://aclanthology.org/2021.findings-emnlp.215/).
 
+This repository is mainly built upon [Pytorch](https://pytorch.org/) and [Pytorch-Lightning](https://pytorch-lightning.readthedocs.io/en/latest/).
+
 ```bibtex
 @inproceedings{tedeschi-etal-2021-wikineural-combined,
     title = "{W}iki{NE}u{R}al: {C}ombined Neural and Knowledge-based Silver Data Creation for Multilingual {NER}",
