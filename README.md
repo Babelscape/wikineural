@@ -54,8 +54,15 @@ Further datasets, such as the combination of WikiNEuRal with gold-standard train
 
 <br>
 
-# WikiNEuRal as a Benchmark (Leaderboard 🏆) 
-If you evaluate your NER system on one or more WikiNEuRal test sets, you can **submit** your results on the corresponding [Papers With Code WikiNEuRal Leaderboards](https://paperswithcode.com/dataset/wikineural), and obtain a **badge** if your system performs well!! 🚀 
+# Pretrained Model on HuggingFace 🤗
+We trained a [Multilingual Named Entity Recognition model](https://huggingface.co/Babelscape/wikineural-multilingual-ner) on WikiNEuRal and made it available on 🤗 Models.
+Specifically, we fine-tuned Multilingual BERT (mBERT) for 3 epochs on our dataset (on all 9 languages jointly). Therefore, the system supports the 9 languages covered by WikiNEuRal (de, en, es, fr, it, nl, pl, pt, ru). For a stronger system (mBERT + Bi-LSTM + CRF) look at [Reproduce Paper Results](#reproduce-paper-results) Section.
+
+
+<br>
+
+# PapersWithCode Leaderboard 🏆
+If you evaluate your NER system on one or more WikiNEuRal test sets, you can **submit** your results on the corresponding [Papers With Code WikiNEuRal Leaderboards](https://paperswithcode.com/dataset/wikineural), and obtain a badge if your system performs well.
 
 You just need to add the **name** of your system, the **score** it achieves (the metric is the Span-Level Macro F1) and **specify if you used additional training data** other than the official WikiNEuRal ones.
 
@@ -63,7 +70,7 @@ You just need to add the **name** of your system, the **score** it achieves (the
 
 <br>
 
-# How to use
+# Reproduce Paper Results
 1. To train 10 models on WikiNEuRal English, run:
     ```
     python run.py -m +train.seed_idx=0,1,2,3,4,5,6,7,8,9 data.datamodule.source=wikineural data.datamodule.language=en
