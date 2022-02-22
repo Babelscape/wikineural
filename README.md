@@ -32,7 +32,6 @@ In a nutshell, WikiNEuRal consists in a novel technique which builds upon a mult
 
 ![comparison](img/comparison.png)
 
-
 <br>
 
 # Data
