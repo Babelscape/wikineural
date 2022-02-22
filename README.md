@@ -62,8 +62,7 @@ Further datasets, such as the combination of WikiNEuRal with gold-standard train
 We trained a [Multilingual Named Entity Recognition model](https://huggingface.co/Babelscape/wikineural-multilingual-ner) on WikiNEuRal and made it available on 🤗 Models (see the [Tutorial Notebook](notebook/WikiNEuRal_HuggingFace.ipynb)).
 Specifically, we fine-tuned Multilingual BERT (mBERT) for 3 epochs on our dataset (on all 9 languages jointly). Therefore, the system supports the 9 languages covered by WikiNEuRal (de, en, es, fr, it, nl, pl, pt, ru). For a stronger system (mBERT + Bi-LSTM + CRF) look at [Reproduce Paper Results](#reproduce-paper-results) Section.
 
-https://github.dev/Babelscape/wikineural/blob/0d26b8f8ec17aeece151fc6450820789ec7a1a15/img/wikineural_demo.mp4
-
+https://user-images.githubusercontent.com/47241515/155128789-9bce46bb-598d-4bda-8f62-db43d47a7dfd.mp4
 
 
 <br>
