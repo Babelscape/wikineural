@@ -1,6 +1,13 @@
-[![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-WikiNEuRal-blue)](https://huggingface.co/datasets/Babelscape/wikineural)
+<div align="center">    
 
- ![logo](img/wikineural.png)
+![logo](img/wikineural.png)
+ 
+[![Paper](https://img.shields.io/badge/Proc-EMNLP--Proceedings-red)](https://aclanthology.org/2021.findings-emnlp.215/?ref=https://githubhelp.com)
+[![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-WikiNEuRal-blue)](https://huggingface.co/datasets/Babelscape/wikineural)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-green.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+</div>
+
 --------------------------------------------------------------------------------
 
 Data and evaluation code for the paper [WikiNEuRal: Combined Neural and Knowledge-based Silver Data Creation for Multilingual NER](https://aclanthology.org/2021.findings-emnlp.215/).
