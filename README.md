@@ -1,4 +1,9 @@
-<div align="center">    
+## News
+ - **2022-07**: [MultiNERD](https://aclanthology.org/2022.findings-naacl.60/), our WikiNEuRal extension, has been published and the produced dataset is available [here](https://github.com/Babelscape/multinerd)!
+ - **2022-01**: A [Multilingual Named Entity Recognition model](https://huggingface.co/Babelscape/wikineural-multilingual-ner) trained on WikiNEuRal is now available on HuggingFace Models!
+ - **2021-12**: Our [WikiNEuRal dataset](https://huggingface.co/datasets/Babelscape/wikineural) is available on HuggingFace Datasets!
+ 
+ <div align="center">    
 
 ![logo](img/wikineural.png)
  
