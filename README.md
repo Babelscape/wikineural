@@ -1,5 +1,5 @@
 ## News
- - **2022-07**: [MultiNERD](https://aclanthology.org/2022.findings-naacl.60/), our WikiNEuRal extension, has been published and the produced dataset is available [here](https://github.com/Babelscape/multinerd)!
+ - **2022-07**: [MultiNERD](https://aclanthology.org/2022.findings-naacl.60/), our fine-grained WikiNEuRal extension, has been published and the produced dataset is available [here](https://github.com/Babelscape/multinerd)!
  - **2022-01**: A [Multilingual Named Entity Recognition model](https://huggingface.co/Babelscape/wikineural-multilingual-ner) trained on WikiNEuRal is now available on HuggingFace Models!
  - **2021-12**: Our [WikiNEuRal dataset](https://huggingface.co/datasets/Babelscape/wikineural) is available on HuggingFace Datasets!
  
@@ -76,15 +76,6 @@ Specifically, we fine-tuned Multilingual BERT (mBERT) for 3 epochs on our datase
 
 https://user-images.githubusercontent.com/47241515/155128789-9bce46bb-598d-4bda-8f62-db43d47a7dfd.mp4
 
-
-<br>
-
-# PapersWithCode Leaderboard 🏆
-If you evaluate your NER system on one or more WikiNEuRal test sets, you can **submit** your results on the corresponding [Papers With Code WikiNEuRal Leaderboards](https://paperswithcode.com/dataset/wikineural), and obtain a badge if your system performs well.
-
-You just need to add the **name** of your system, the **score** it achieves (the metric is the Span-Level Macro F1) and **specify if you used additional training data** other than the official WikiNEuRal ones.
-
-**Note**: To compute the Span-Level Macro F1 score you can also use the [conlleval](https://github.com/sighsmile/conlleval) script or the [seqeval](https://pypi.org/project/seqeval/0.0.10/) library in addition to the script in this repository.
 
 <br>
 
